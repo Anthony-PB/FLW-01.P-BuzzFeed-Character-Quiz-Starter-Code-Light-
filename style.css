@@ -2,18 +2,26 @@ html, body {
   height: 100%;
   width: 100%;
   font-family: 'Slabo 27px', serif;
+  background-color: #E2DFD2;
 }
-
+.refresh{
+  display:none;
+  
+}
 .header {
   font-family: 'Slabo 27px', serif;
   display: flex;
   justify-content: space-around;
   color: #0f65ef;
   font-size:27px;
+  border-radius: 5px;
+  border: 5px solid white;
 }
 
 .logo {
   width: 100px;
+  border-radius: 50px;
+  border: 5px dotted white;
 }
 
 .cover{
@@ -31,6 +39,9 @@ a {
 
 .displayResult{
   text-align: center;
+  background-color: #baa0a4;
+  border-radius: 5px;
+  border: 3px solid white;
 }
 
 img{
@@ -40,10 +51,15 @@ img{
 button {
   margin-top: 10px;
   color: white;
-  background-color: #eb2642;
+  background-color: #880d1f;
   font-size: 40px;
-  border-radius: 25px;
-  border:3px groove black;
+  border-radius: 20px;
+  border: 8px double black;
   font-family: monospace;
   padding: 20px;
+}
+
+.refreshButton{
+display: flex;
+justify-content: center;
 }
